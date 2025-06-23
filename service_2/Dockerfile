@@ -1,4 +1,5 @@
 FROM ghcr.io/astral-sh/uv:alpine
+RUN apk add curl
 
 WORKDIR /app
 COPY . .
